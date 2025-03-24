@@ -38,11 +38,15 @@ cd R13_MFS/MFS_WolframCode
 ```
 
 ### **Alternatively: Download Manually**
-1. Go to [GitHub Repository](https://github.com/your-username/R13_MFS).
+1. Go to [GitHub Repository](https://github.com/himanshikhungar/R13_MFS).
 2. Click on the **“Code”** button and select **“Download ZIP”**.
-3. Extract the ZIP file to a folder (e.g., `MFS_WolframCode`).
+3. Extract the ZIP file to a folder (e.g., `R13_MFS`).
+4. Open a terminal and navigate to the script folder:
+   ```bash
+   cd R13_MFS/MFS_WolframCode
+   ```
 
-### **Step 2: Run the Example Script**
+### **Step 2: Run the Main Script**
 Execute the Wolfram Script by running:
 ```bash
 wolframscript -f ExampleMain.wls
