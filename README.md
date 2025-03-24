@@ -33,7 +33,7 @@ If Git is not already installed on your system, install it:
 ### **Step 1: Clone the Repository**
 If you have Git installed, clone the repository:
 ```bash
-git clone https://github.com/your-username/R13_MFS.git
+git clone https://github.com/himanshikhungar/R13_MFS.git
 cd MFS_WolframCode
 ```
 
