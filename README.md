@@ -1,7 +1,7 @@
 # R13_MFS
 
 ## Introduction
-This repository contains Wolfram Script implementations of the method of fundamental solutions (MFS) for solving the R13 equations in rarefied gas flows. The scripts provide a meshless approach to solving boundary value problems efficiently.
+This repository contains Wolfram Script implementations of the method of fundamental solutions (MFS) for solving the R13 equations in rarefied gas flows. The scripts provide a meshless approach to solving boundary value problems efficiently. Additionally, the repository includes an analytic solution for the R13 equations and validates the MFS results by comparing them with the analytic results.
 
 ## Installation
 To run the scripts, you need to install the Wolfram Engine and sign in with a free Wolfram account.
@@ -27,10 +27,6 @@ If Git is not already installed on your system, install it:
 - **MacOS**: `brew install git`
 - **Windows**: Download and install from [git-scm.com](https://git-scm.com/)
 
-Additionally, install **Git LFS** (Large File Storage), which is needed to download the meshes from the repository:
-```bash
-git lfs install
-```
 
 ## Running the Code
 
@@ -70,5 +66,6 @@ To customize the parameters for your simulation, modify the following values in 
 This project is open-source. Feel free to use and modify it for research and educational purposes.
 
 ## Contact
-For questions or suggestions, please open an issue on GitHub or contact [your email or GitHub profile].
+For questions or suggestions, please open an issue on GitHub or contact hkhungar@gmail.com.
+
 
