@@ -21,7 +21,7 @@ wolframscript -version
 ```
 If the command returns a version number, the installation was successful.
 
-### **Step 3: Install Git and Git LFS**
+### **Step 3: Install Git**
 If Git is not already installed on your system, install it:
 - **Linux (Debian/Ubuntu)**: `sudo apt install git`
 - **MacOS**: `brew install git`
