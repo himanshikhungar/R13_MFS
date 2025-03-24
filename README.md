@@ -34,7 +34,7 @@ If Git is not already installed on your system, install it:
 If you have Git installed, clone the repository:
 ```bash
 git clone https://github.com/himanshikhungar/R13_MFS.git
-cd MFS_WolframCode
+cd R13_MFS/MFS_WolframCode
 ```
 
 ### **Alternatively: Download Manually**
