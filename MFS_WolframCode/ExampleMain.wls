@@ -68,9 +68,10 @@ Get["MFS_Example.wls"];
 Print["Saving a comparison as plot."];
 
 output=Export["R13_MFS_analytical.png",
-GraphicsRow[{
-   Show[{PlotExactTemperature, PlotMFSTemperature}, PlotLabel -> "analytical solution (solid), MFS (symbols)"], 
-   Show[{PlotExactVelocity, PlotMFSVelocity}, PlotLabel -> "analytical solution (solid), MFS (symbols)"]}, 
+GraphicsRow[{   
+   Show[{PlotExactVelocity, PlotMFSVelocity}, PlotLabel -> "Analytical (solid), MFS (symbols)"],
+   Show[{PlotExactTemperature, PlotMFSTemperature}, PlotLabel -> "Analytical (solid), MFS (symbols)"]
+}, 
    ImageSize -> 900]];
 
 Print["Done: "<>output];
