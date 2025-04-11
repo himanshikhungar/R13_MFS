@@ -32,17 +32,20 @@ dr = 0.1;
 MFSresult = Table[ParallelTable[{r, tempMFS[{r*Cos[theta], r*Sin[theta]}]}, 
                                 {r, rb, Rb, dr}], {theta, {0, Pi/4, Pi/2}}]; 
 
-PlotMFSTemperature = ListPlot[MFSresult, PlotStyle -> {Blue, Red, Green}, 
+mtps = ResourceFunction["PolygonMarker"]["Triangle", Offset[6], EdgeForm[]];
+
+PlotMFSTemperature = ListPlot[MFSresult, PlotStyle -> {Blue, Red, Black}, 
     Frame -> True, FrameLabel -> {"radius r", "temperature"}, PlotRange -> Full, 
-    PlotMarkers -> {"\[FilledCircle]", 12} 
+    PlotMarkers -> {mtps, 10} , AspectRatio -> 1,BaseStyle -> {FontFamily -> "Century Schoolbook", FontSize -> 18}, PlotTheme -> "Grid"
    ]; 
 
 MFSresult = Table[ParallelTable[{r, Norm[velMFS[{r*Cos[theta], r*Sin[theta]}]]}, 
                                 {r, rb, Rb, dr}], {theta, {0, Pi/4, Pi/2}}]; 
 
-PlotMFSVelocity = ListPlot[MFSresult, PlotStyle -> {Blue, Red, Green}, 
+PlotMFSVelocity = ListPlot[MFSresult, PlotStyle -> {Blue, Red, Black}, 
     PlotRange -> Full, Frame -> True, FrameLabel -> {"radius r", "speed"}, 
-    PlotMarkers -> {"\[FilledCircle]", 12}
+    PlotMarkers -> {mtps, 10}, AspectRatio -> 1, BaseStyle -> {FontFamily -> "Century Schoolbook", FontSize -> 18}, PlotTheme -> "Grid"
    ]; 
+
 
 Print["MFS done."];
