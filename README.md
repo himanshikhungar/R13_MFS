@@ -66,9 +66,6 @@ To customize the parameters for your simulation, modify the following values in 
 3. **Modify Boundary Parameters**
    - To change velocity, temperature, and pressure at boundaries, edit the boundary parameters in `ExampleMain.wls`.
 
-## License
-This project is open-source. Feel free to use and modify it for research and educational purposes.
-
 ## Contact
 For questions or suggestions, please open an issue on GitHub or contact hkhungar@gmail.com.
 
