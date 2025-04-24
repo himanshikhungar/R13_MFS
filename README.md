@@ -10,14 +10,7 @@ To run the scripts, you need to install the Wolfram Engine and sign in with a fr
 ### **Step 1: Install Wolfram Engine and `wolframscript`**
 1. Download and install the **Wolfram Engine** from the official website: [Wolfram Engine](https://www.wolfram.com/engine/)
 2. The installation includes `wolframscript`, a command-line tool for running Wolfram Language code. After installation:
-   - Make sure `wolframscript` is accessible from your terminal. If you get a "command not found" error, add the Wolfram Engine's `Executables` folder to your system `PATH`. For example:
-     - **Linux/macOS**:
-       ```bash
-       export PATH="/usr/local/Wolfram/WolframEngine/14.2/Executables:$PATH"
-       ```
-       Add the above line to your `~/.bashrc` or `~/.zshrc` and restart your terminal.
-     - **Windows**:
-       Add the path (e.g., `C:\Program Files\Wolfram Research\Wolfram Engine\13.3`) to your system’s `Path` environment variable via the Environment Variables settings.
+   - Make sure `wolframscript` is accessible from your terminal. If you get a "command not found" error, add the Wolfram Engine's `Executables` folder to your system `PATH`.
 3. Once `wolframscript` is available, authenticate using your Wolfram account:
    ```bash
    wolframscript -authenticate
