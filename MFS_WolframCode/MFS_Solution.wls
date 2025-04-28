@@ -14,7 +14,7 @@ nBC = nn = Length[BCrhs];  (* number of boundary conditions = number of boundary
 
 Kn = \[Tau];  (*Knudsen number*)
 
-d = 0.07; (*Grid spacing*)
+d = 0.1; (*Grid spacing*)
 
 NbOuter = Floor[2 \[Pi] Rb/d]; (*Number of points on outer circle*)
 NbInner = Floor[2 \[Pi] rb/d]; (*Number of points on inner circle*)
