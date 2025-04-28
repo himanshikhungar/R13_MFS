@@ -54,19 +54,23 @@ Execute the Wolfram Script by running:
 wolframscript -f ExampleMain.wls
 ```
 
-This will start the computation using the provided example script.
+This will start the computation using the provided example script, which solves R13 on a 2D geometry given
+by two concentric circles. After execution the script will write a PNG image into the local folder which shows the 
+comparison of the values of an exact solution with those obtained from MFS.
+
+<img src="MFS_WolframCode/R13_MFS_analytical.png" alt="Result Image" width="70%">
 
 ## Modifying Parameters
 To customize the parameters for your simulation, modify the following values in the respective script files:
 
 1. **Modify the Location of Singularity or Source Points**
-   - Change the value of the dilation parameter `α` in `MFS_Example.wls`.
+   - Change the value of the dilation parameter `α` in `MFS_Example.wls`, see [here](MFS_WolframCode/MFS_Example.wls#L13).
 
 2. **Change the Spacing Between Boundary Nodes and Singularity Points**
-   - Modify the grid spacing `d` in `MFS_Solution.wls`.
+   - Modify the grid spacing `d` in `MFS_Solution.wls`, see [here](MFS_WolframCode/MFS_Solution.wls#L17).
 
 3. **Modify Boundary Parameters**
-   - To change velocity, temperature, and pressure at boundaries, edit the boundary parameters in `ExampleMain.wls`.
+   - To change velocity, temperature, and pressure at boundaries, edit the boundary parameters in `ExampleMain.wls`, see [here](MFS_WolframCode/ExampleMain.wls#L15).
 
 ## Contact
 For questions or suggestions, please open an issue on GitHub or contact hkhungar@gmail.com.
