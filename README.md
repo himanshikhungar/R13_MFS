@@ -1,7 +1,9 @@
 # R13_MFS
 
 ## Introduction
-This repository contains Wolfram Script implementations of the method of fundamental solutions (MFS) for solving the R13 equations in rarefied gas flows. The scripts provide a meshless approach to solving boundary value problems efficiently. Additionally, the repository includes an analytic solution for the R13 equations and validates the MFS results by comparing them with the analytic results.
+This repository contains Wolfram Script implementations of the method of fundamental solutions (MFS) for solving the regularized 13-moment (R13) equations in rarefied gas flows. The scripts provide a meshless approach to solving boundary value problems efficiently. Additionally, the repository includes an analytic solution for the R13 equations and validates the MFS results by comparing them with the analytic results.
+
+For mathematical details see the arXiv preprint [A generalized fundamental solution technique for the regularized 13-moment system in rarefied gas flows](https://arxiv.org/abs/2504.18261).
 
 ## Installation
 To run the scripts, you need to install the Wolfram Engine and sign in with a free Wolfram account.
