@@ -58,11 +58,11 @@ PlotMFSVelocity = Nothing;
 
 
  (*use this command for an analytical solution *)
-Get["AnalyticalExample.wls"]; 
+Get[FileNameJoin[{DirectoryName[$InputFileName], "Analytical", "AnalyticalExample.wls"}]];
 
 
 (* use this command for an MFS solution *)
-Get["MFS_Example.wls"];
+Get[FileNameJoin[{DirectoryName[$InputFileName], "Example", "MFS_Example.wls"}]];
 
 
 Print["Saving a comparison as plot."];
@@ -75,3 +75,4 @@ GraphicsRow[{
    ImageSize -> 900]];
 
 Print["Done: "<>output];
+
