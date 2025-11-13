@@ -34,8 +34,8 @@ GenerateRandomCircles[n_Integer, dmin_, rRange : {rmin_, rmax_}] := Module[
   circles
 ];
  
-SeedRandom[1234]; (* reproducible geometry *)
-numInner = 10;
+SeedRandom[2143]; (* reproducible geometry *)
+numInner = 7;
 dmin = 0.04;
 rRange = {0.1, 0.25};
 h = 0.03;
