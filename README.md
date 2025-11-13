@@ -80,7 +80,10 @@ To customize the parameters for your simulation, modify the following values in 
    - Modify the grid spacing `d` in `MFS_Solution.wls`, see [here](MFS_WolframCode/Example/MFS_Solution.wls#L17).
 
 3. **Modify Boundary Parameters**
-   - To change velocity, temperature, and pressure at boundaries, edit the boundary parameters in `ExampleMain.wls`, see [here](MFS_WolframCode/Example/ExampleMain.wls#L15).
+   - To change velocity, temperature, and pressure at boundaries, edit the boundary parameters in `ExampleMain.wls`, see [here](MFS_WolframCode/ExampleMain.wls#L15).
+  
+4. **Modify Number of circles in random case**
+   - To change the number of random circles `numInner` in the complex example geometry `RandomGeometry.wls`, see [here](MFS_WolframCode/Random/RandomGeometry.wls#L38).
 
 ## Contact
 For questions or suggestions, please open an issue on GitHub or contact hkhungar@gmail.com.
