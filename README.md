@@ -67,7 +67,7 @@ comparison of the values of an exact solution with those obtained from MFS.
 wolframscript -f RandomMain.wls
 ```
 This will simulate flow past randomly distributed circular obstacles.
-<img src="MFS_WolframCode/stream_random.png" alt="Result Image" width="70%">
+<img src="MFS_WolframCode/stream_random.png" alt="Result Image" width="40%">
 
 ## Modifying Parameters
 To customize the parameters for your simulation, modify the following values in the respective script files:
